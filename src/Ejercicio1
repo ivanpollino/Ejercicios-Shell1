@@ -1,0 +1,5 @@
+touch 01-hola-mundo.sh
+chmod 777 01-hola-mundo.sh
+nano 01-hola-mundo.sh
+echo ‘Hola mundo!’
+./01-hola-mundo.sh
