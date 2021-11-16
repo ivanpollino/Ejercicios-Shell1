@@ -1,0 +1,4 @@
+nano 01-hola-mundo.sh
+#!/bin/bash
+echo “Hola $@!”
+./01-hola-mundo.sh
