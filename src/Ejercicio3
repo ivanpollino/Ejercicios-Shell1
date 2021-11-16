@@ -1,0 +1,10 @@
+nano 02-holaparametros.sh
+#!/bin/bash
+echo "número de parámetros = $#"
+# si número de parámetros menor o igual que 0
+if [ $# < 0 ];then
+        echo "hay que introducir un parámetro"
+fi
+echo "Hola $@!"
+‘número de parámetros = 0’
+‘Hola ‘
